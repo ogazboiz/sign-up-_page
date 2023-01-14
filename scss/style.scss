@@ -1,0 +1,32 @@
+$font-stack: Arial, Helvetica, sans-serif;
+$primary-color: #0028f3;
+$light-color: #03a6d4;
+$secondary-color: #f2f3f3;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background: $light-color;
+  font-family: $font-stack;
+  &-body {
+    justify-items: center;
+    margin: 60px 20px;
+  }
+
+  &-content {
+    background-color: $primary-color;
+    h4 {
+      margin-top: 90px;
+      text-align: left;
+      align-items: center;
+    }
+  }
+  &-form {
+    background-color: $secondary-color;
+  }
+}
+img {
+  width: 100%;
+}
