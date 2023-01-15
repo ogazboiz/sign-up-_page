@@ -2,6 +2,7 @@ $font-stack: Arial, Helvetica, sans-serif;
 $primary-color: #0028f3;
 $light-color: #03a6d4;
 $secondary-color: #f2f3f3;
+$text-color: #a6b7c7;
 * {
   box-sizing: border-box;
   margin: 0;
@@ -21,10 +22,59 @@ $secondary-color: #f2f3f3;
       margin-top: 90px;
       text-align: left;
       align-items: center;
+      color: $secondary-color;
     }
   }
   &-form {
     background-color: $secondary-color;
+    .wrapped {
+      margin-left: 60px;
+    }
+    h5 {
+      margin-top: 6rem;
+      margin-bottom: 3rem;
+      color: #3d3d4e;
+      font-weight: 600;
+    }
+    h6 {
+      color: #3d3d4e;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    label {
+      font-size: 14px;
+      font-weight: 300;
+    }
+    input {
+      background-color: $secondary-color;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: smaller;
+      width: 67%;
+      color: $text-color;
+    }
+    .btn {
+      background-color: $primary-color;
+      border-radius: 5px;
+      color: $secondary-color;
+      padding: 7px 35px;
+    }
+    .rules {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    form {
+      p {
+        color: #3d3d4e;
+        font-size: 15px;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+      }
+      .rule-1 {
+        color: $text-color;
+      }
+    }
   }
 }
 img {

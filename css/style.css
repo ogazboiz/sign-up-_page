@@ -22,10 +22,67 @@
   margin-top: 90px;
   text-align: left;
   align-items: center;
+  color: #f2f3f3;
 }
 
 .container-form {
   background-color: #f2f3f3;
+}
+
+.container-form .wrapped {
+  margin-left: 60px;
+}
+
+.container-form h5 {
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  color: #3d3d4e;
+  font-weight: 600;
+}
+
+.container-form h6 {
+  color: #3d3d4e;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.container-form label {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.container-form input {
+  background-color: #f2f3f3;
+  margin-bottom: 1rem;
+}
+
+.container-form p {
+  font-size: smaller;
+  width: 67%;
+  color: #a6b7c7;
+}
+
+.container-form .btn {
+  background-color: #0028f3;
+  border-radius: 5px;
+  color: #f2f3f3;
+  padding: 7px 35px;
+}
+
+.container-form .rules {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.container-form form p {
+  color: #3d3d4e;
+  font-size: 15px;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.container-form form .rule-1 {
+  color: #a6b7c7;
 }
 
 img {
