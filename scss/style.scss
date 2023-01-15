@@ -86,6 +86,10 @@ $text-color: #a6b7c7;
       .rule-1 {
         color: $text-color;
       }
+      .required:after {
+        content: " *";
+        color: red;
+      }
     }
   }
 }

@@ -98,6 +98,11 @@
   color: #a6b7c7;
 }
 
+.container-form form .required:after {
+  content: " *";
+  color: red;
+}
+
 img {
   width: 100%;
 }
