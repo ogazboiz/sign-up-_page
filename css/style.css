@@ -18,11 +18,24 @@
   background-color: #0028f3;
 }
 
+.container-content p {
+  font-size: 13px;
+  color: #f2f3f3;
+  display: inline-block;
+  vertical-align: sub;
+}
+
 .container-content h4 {
   margin-top: 90px;
   text-align: left;
   align-items: center;
   color: #f2f3f3;
+}
+
+.container-content .logo {
+  width: 20%;
+  justify-content: center;
+  vertical-align: buttom;
 }
 
 .container-form {

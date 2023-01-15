@@ -18,11 +18,23 @@ $text-color: #a6b7c7;
 
   &-content {
     background-color: $primary-color;
+
+    p {
+      font-size: 13px;
+      color: $secondary-color;
+      display: inline-block;
+      vertical-align: sub;
+    }
     h4 {
       margin-top: 90px;
       text-align: left;
       align-items: center;
       color: $secondary-color;
+    }
+    .logo {
+      width: 20%;
+      justify-content: center;
+      vertical-align: buttom;
     }
   }
   &-form {
